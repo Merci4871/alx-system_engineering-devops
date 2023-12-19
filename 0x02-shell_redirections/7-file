@@ -1,8 +1,2 @@
 #!/bin/bash
-
-# Create a file named *\'"Best School"\'*$\?\*\*\*\*\*:) with the text "Best School" and a newline
-echo "Best School" > '*\\'"Best School"\'\\*\$\?\*\*\*\*\*:)'
-
-# Verify the creation of the file
-ls -l
-cat -e '*\\'"Best School"\'\\*\$\?\*\*\*\*\*:)'
+echo "Best School" > \\\*\\\\'"Best School\"\\'"\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\)
