@@ -1,8 +1,2 @@
 #!/bin/bash
-
-# Read input line by line and print every other line
-while IFS= read -r line; do
-    echo "$line"
-    # Read and discard the next line to skip it
-    IFS= read -r _
-done
+paste -d, - - | cut -d, -f1
